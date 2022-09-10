@@ -5,16 +5,18 @@
   The variables should have values that match the expected results.
 */
 
-var studentCount = 16;
-var mentorCount = 9;
-var moreStudentsThanMentors; // finish this statement
+let studentCount = 16;
+let mentorCount = 9;
+const moreStudentsThanMentors = studentCount > mentorCount;// finish this statement
 
-var roomMaxCapacity = 25;
-var enoughSpaceInRoom; // finish this statement
 
-var personA = "Daniel";
-var personB = "Irina";
-var sameName; // finish this statement
+const total = studentCount + mentorCount;
+const roomMaxCapacity = 25;
+const enoughSpaceInRoom = roomMaxCapacity >= total; // finish this statement
+
+let personA = "Daniel";
+let personB = "Irina";
+const sameName = personA == personB; // finish this statement
 
 /* 
   DO NOT EDIT BELOW THIS LINE
