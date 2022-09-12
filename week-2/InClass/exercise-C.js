@@ -6,6 +6,7 @@ function numberChecker(num) {
   } else if (num < 20) {
     return `${num} is less than 20`;
   } else {
-    return `${num} isn't even a number :(`;
+    return `${num} isn't even a number`;
   }
 }
+console.log(numberChecker(10))
