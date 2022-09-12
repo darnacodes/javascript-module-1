@@ -5,11 +5,17 @@
 
 // write your code here
 
-var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
 
-var longNameThatStartsWithA = findLongNameThatStartsWithA(names);
 
-console.log(longNameThatStartsWithA);
+function findLongNameThatStartsWithA(names) {
+    return names[0]== "A" && names.length > 7;  // how come it work forme only without the names A ?
+  };
+
+const names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
+
+  const longNameA = names.find(findLongNameThatStartsWithA);
+console.log(longNameA);
+
 
 /* EXPECTED OUTPUT */
 // "Alexandra"
