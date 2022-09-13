@@ -20,7 +20,7 @@ function roleChecker(name,role){
 if(role == "mentor" || role== "student"){
   return (`hi, im ${name}, I'm a ${role}`);
 } else {
-    return ('what are you doing here');
+    return ('what are you doing here'); // TODO I LOVE IT! I WOULD RATHER USE AN isMentor BOOLEAN VARIABLE BUT YOUR WAY WORKS
   }
 };
 

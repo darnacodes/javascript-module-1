@@ -13,6 +13,7 @@ var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]];
     console.log ("exiting bec of null value ");
     process.exit(1);
   }
+  // TODO THIS WORKS! BUT IT WOULD BE BETTER TO ADD THIS CONDITION INSIDE THE .map() FUNCTION LOOP (ITS SIMILAR TO THE WHILE LOOP)
 
   
 
