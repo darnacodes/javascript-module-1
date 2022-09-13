@@ -4,7 +4,7 @@
 - You should use a while loop
 */
 
-let n = 10;
+let n = 3;
 
 //your code here
 

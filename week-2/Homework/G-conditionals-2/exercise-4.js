@@ -10,7 +10,7 @@
 
 function containsCode(sentence) {
   if (sentence.includes("code")){
-    return "true";
+    return "true";  // TODO RETURN A BOOLEAN INSTEAD OF A STRING. "true" IS A STRING, true IS A BOOLEAN. YOU SHOULD ALSO HANDLE THE CASE OF false IF THE SENTENCE DOESNT INCLUDE "code"
   }
   
 //shorthand of writing the code
