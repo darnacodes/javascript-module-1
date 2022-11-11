@@ -5,13 +5,27 @@
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
-var groupIsOnlyStudents; // complete this statement
 
-if (groupIsOnlyStudents) {
-  console.log("The group contains only students");
-} else {
-  console.log("The group does not contain only students");
-}
+function isGroupOnlyStudents(array){
+  if (array.contains(students));
+  console.log ("The group only contains students");
+//} else {
+  //console.log("The group does not contain only students");
+} ;
+
+
+//var groupIsOnlyStudents= namesCombine.includes(students); 
+// complete this statement
+ 
+
+//var groupIsOnlyStudents= namesCombine.every(groupIsOnlyStudents);
+  //if (groupIsOnlyStudents) {
+    //console.log("The group contains only students");
+//}else {
+  //console.log("The group does not contain only students");
+//} ;
+
+
 
 /* EXPECTED RESULT */
 

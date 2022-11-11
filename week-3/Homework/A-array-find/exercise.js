@@ -8,7 +8,7 @@
 
 
 function findLongNameThatStartsWithA(names) {
-    return names[0]== "A" && names.length > 7;  // how come it work forme only without the names A ?
+    return names[0]== "A" && names.length > 7;  
   };
 
 const names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
